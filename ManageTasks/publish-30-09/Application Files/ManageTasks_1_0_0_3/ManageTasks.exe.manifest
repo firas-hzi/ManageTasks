@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ManageTasks.exe" version="1.0.0.3" publicKeyToken="9f20380b61969854" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Folder.ICO" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ManageTasks" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ManageTasks.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ManageTasks.exe" size="234968">
+      <assemblyIdentity name="ManageTasks" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R4XK+w3AUh9+rU/N2PSUa+TnYg3JWUTRx4j0ZDwxWLQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Folder.ICO" size="122007">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A8QYAE35BRST8tbMlDdY/bwUtT2JZwIi2InyZdvmgP0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ManageTasks.exe.config" size="1209">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HFVvWRxeZrhjeKv2T8Sob6mBFyUeq6Yv4fA0cmNhm5s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ManageTasks.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>77B29Ik5nbcht1ABt+effUYBo0xngEDPd6s1mRY6k/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ManageTasks_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QYN5lFud4qqXwSz6wOwVcCTj2zkInn96tMDTjdHDxY4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HELLO-WORLD-PC\user" issuerKeyHash="1bcffee2efe1119b71e0a2e721c0b5665d0369ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mq916VIHyu8itxiGxBTEZN9OSRDGjNWXPwCdm2/sL3o=</DigestValue></Reference></SignedInfo><SignatureValue>DTdkJW53TJEP8757jO2CXiiOLlRN3EBLOxsgyrnsST8XaH2jqpDn/P3gemdqCufE3TlDqa1FFaxql+A2sVfT7+CN2CSAatrfa3PBBXWaY0OD+FJdnE2gP52RxUU1QZTIMZgoRQAnS/yfADsKvO2VGf4XnSImTfdg7OuJaKyA+Fc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uOR1rFQDfFBVBmNazqUZjftbBBYgA5NeDyokmDoNYaY5kxGf3zYsjOyhKr2LC/UTUGmq7y4c7q2m3HOYJ+2oJv4k8p5AbsrVhlmn4IvmhA+N0w2KrhKs1Vrgyz8JxrkNscN/9LBQskCjGH5io+5TXkfYcrEK6XlsT7GvcXLR890=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7a2fec6f9b9d003f97d58cc610494edf64c414c48618b722efca0752e975af32" Description="" Url=""><as:assemblyIdentity name="ManageTasks.exe" version="1.0.0.3" publicKeyToken="9f20380b61969854" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HELLO-WORLD-PC\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>J5zDd+ukGdWXbWqESrkBOiM15EvGjRSpf9mQGBEil4o=</DigestValue></Reference></SignedInfo><SignatureValue>fW64/Fcln0A7ccfi2bHH9rqhcc7lpFp5aFFRxV9AfxotnuI4mWlHkhtD+eYSzqHWd9H5TKTaicWK7ll4hcSkvaMowm9ebChmv0pU0LwUFPC/9SaqeWOnVKVYzZF48c4ndK/urFf3rcvyYxRtQWlsw/U3hl0aAkfMP3JOV77kYjU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uOR1rFQDfFBVBmNazqUZjftbBBYgA5NeDyokmDoNYaY5kxGf3zYsjOyhKr2LC/UTUGmq7y4c7q2m3HOYJ+2oJv4k8p5AbsrVhlmn4IvmhA+N0w2KrhKs1Vrgyz8JxrkNscN/9LBQskCjGH5io+5TXkfYcrEK6XlsT7GvcXLR890=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQKVYX1nX3TJhHpHHGMwFViDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYASABFAEwATABPAC0AVwBPAFIATABEAC0AUABDAFwAdQBzAGUAcjAeFw0xODA5MjgxMjM4NDJaFw0xOTA5MjgxODM4NDJaMDExLzAtBgNVBAMeJgBIAEUATABMAE8ALQBXAE8AUgBMAEQALQBQAEMAXAB1AHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC45HWsVAN8UFUGY1rOpRmN+1sEFiADk14PKiSYOg1hpjmTEZ/fNiyM7KEqvYsL9RNQaarvLhzurabcc5gn7agm/iTynkBuytWGWafgi+aED43TDYquEqzVWuDLPwnGuQ2xw3/0sFCyQKMYfmKj7lNeR9hysQrpeWxPsa9xctHz3QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHLnPwg4WMZzIAJ6ZxwIG3Jquaz3oz3CQbiEEYRSFdHT2U5f537MDJUN7Y/drgoKNo1W9kYr6r6ywhymh/8El+puRHRMvUODp+OazXjKfxiaX+eZ7RzwSZXYGOsYOUqRiGTi/zfDAIv4y3mkxs40Yd+4oLDxtEQS/OuM/15QcPam</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
